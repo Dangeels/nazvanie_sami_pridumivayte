@@ -75,5 +75,5 @@ def p(s:None=None) -> None:
 def p(s:None=None) -> None:
     pass
 
-
+print('')
 bot.infinity_polling()
