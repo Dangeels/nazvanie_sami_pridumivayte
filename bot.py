@@ -67,7 +67,7 @@ def profile(m):
     ...
 
 def p(s:None=None) -> None:
-    pass
+    print('')
 
 def p(s:None=None) -> None:
     pass
