@@ -69,5 +69,8 @@ def profile(m):
 def p(s:None=None) -> None:
     pass
 
+def p(s:None=None) -> None:
+    pass
+
 
 bot.infinity_polling()
