@@ -68,5 +68,5 @@ def profile(m):
 
 
 
-print('')
+
 bot.infinity_polling()
