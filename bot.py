@@ -66,7 +66,7 @@ def registration(m):
 def profile(m):
     ...
 
-def p() -> None:
+def p(s:None=None) -> None:
     pass
 
 
