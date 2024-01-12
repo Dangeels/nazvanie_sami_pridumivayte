@@ -66,7 +66,8 @@ def registration(m):
 def profile(m):
     ...
 
-
+def p():
+    pass
 
 
 bot.infinity_polling()
