@@ -5,7 +5,7 @@ from telebot import types
 from telebot.types import ReplyKeyboardMarkup,KeyboardButton, MenuButtonDefault
 import json
 import text
-
+print('хуй')
 
 bot = telebot.TeleBot(config.bot_token)
 
