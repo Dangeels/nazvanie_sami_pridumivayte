@@ -19,7 +19,7 @@ def start(m):
 
 
     markup = ReplyKeyboardMarkup(resize_keyboard=True)
-    next_btn = KeyboardButton('инструкция')
+    next_btn = KeyboardButton('Инструкция')
     markup.add(next_btn)
 
     x = telebot.util.extract_command(m.text)
@@ -38,15 +38,15 @@ questions = [
     Questions('Отправь свою фотку')
              ]
 
-@bot.message_handler(regexp='инструкция')
+@bot.message_handler(regexp='Инструкция')
 def instruction(m):
 
     markup = ReplyKeyboardMarkup(resize_keyboard=True)
     btn = KeyboardButton('Подарки и бонусы')
     markup.add(btn)
 
-    bot.send_message(m.chat.id,text.text['help'], reply_markup=markup)
-    bot.send_message(m.chat.id, text.text['ne_ebu'])
+    bot.send_message(m.chat.id,text.text['instruction'], reply_markup=markup)
+    #bot.send_message(m.chat.id, text.text['ne_ebu'])
 @bot.message_handler(regexp='Подарки и бонусы')
 def ref(m):
 
